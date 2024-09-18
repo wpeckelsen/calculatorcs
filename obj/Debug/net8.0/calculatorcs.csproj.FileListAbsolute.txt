@@ -1,0 +1,14 @@
+/Users/wessel/vscode/calculatorcs/bin/Debug/net8.0/calculatorcs
+/Users/wessel/vscode/calculatorcs/bin/Debug/net8.0/calculatorcs.deps.json
+/Users/wessel/vscode/calculatorcs/bin/Debug/net8.0/calculatorcs.runtimeconfig.json
+/Users/wessel/vscode/calculatorcs/bin/Debug/net8.0/calculatorcs.dll
+/Users/wessel/vscode/calculatorcs/bin/Debug/net8.0/calculatorcs.pdb
+/Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/calculatorcs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/calculatorcs.AssemblyInfoInputs.cache
+/Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/calculatorcs.AssemblyInfo.cs
+/Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/calculatorcs.csproj.CoreCompileInputs.cache
+/Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/calculatorcs.dll
+/Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/refint/calculatorcs.dll
+/Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/calculatorcs.pdb
+/Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/calculatorcs.genruntimeconfig.cache
+/Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/ref/calculatorcs.dll
