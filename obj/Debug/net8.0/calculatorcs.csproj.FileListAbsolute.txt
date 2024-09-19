@@ -12,3 +12,4 @@
 /Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/calculatorcs.pdb
 /Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/calculatorcs.genruntimeconfig.cache
 /Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/ref/calculatorcs.dll
+/Users/wessel/vscode/calculatorcs/obj/Debug/net8.0/calculatorcs.sourcelink.json
