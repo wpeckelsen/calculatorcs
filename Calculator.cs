@@ -17,12 +17,12 @@ namespace calculatorcs
         }
 
 
-        // public double plus(double num1, double num2)
-        // {
-        //     double sum = num1 + num2;
-        //     Console.WriteLine("double: ");
-        //     return sum;
-        // }
+        public double plus(double num1, double num2)
+        {
+            double sum = num1 + num2;
+            Console.WriteLine("double: ");
+            return sum;
+        }
 
         public double minus(double num1, double num2)
         {
@@ -30,12 +30,14 @@ namespace calculatorcs
             return sum;
         }
 
-        public double times(double num1, double num2){
+        public double times(double num1, double num2)
+        {
             double sum = num1 * num2;
             return sum;
         }
 
-        public double divide(double num1, double num2){
+        public double divide(double num1, double num2)
+        {
             double sum = num1 / num2;
             return sum;
         }
@@ -49,8 +51,8 @@ namespace calculatorcs
             {
 
                 case "+":
-                    return Helpers.Plus(Num1, Num2);
-                    // plus(Num1, Num2);
+                    return plus(Num1, Num2);
+                // plus(Num1, Num2);
 
 
                 case "-":
@@ -60,9 +62,11 @@ namespace calculatorcs
                     return times(Num1, Num2);
 
                 case "/":
-                    if (Num2 != 0)
-                        return divide(Num1, Num2);
-                    else throw new DivideByZeroException("cannot divide by 0 !!!");
+
+             
+                if (Num2 != 0)
+                    return divide(Num1, Num2);
+                else throw new DivideByZeroException("cannot divide by 0 !!!");
 
                 default: throw new InvalidOperationException("PerformCalc. invalid operator");
             }

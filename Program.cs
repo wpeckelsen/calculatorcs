@@ -10,13 +10,16 @@
             Console.WriteLine("write 1 for average, write 2 for operations");
             string[] validChoices = ["1", "2"];
 
+
+
             while (true)
             {
                 string choice = Console.ReadLine();
                 if (validChoices.Contains(choice))
                 {
-
+                    
                     if (choice == "1")
+
                     {
                         // average
                         List<double> capturedEntries = new List<double>();
@@ -79,7 +82,7 @@
                             }
                             else
                             {
-                                Console.WriteLine("invalid!");
+                                Console.WriteLine("invalid operator!");
                             }
 
                         }
@@ -88,12 +91,14 @@
                         Console.WriteLine("add second number: ");
                         double num2 = Convert.ToDouble(Console.ReadLine());
 
+                    
+
                         try
                         {
                             Calculator calculator = new Calculator(num1, num2, op);
                             double result = calculator.PerformCalc();
-                            // double result = Calculator.PerformCalc(num1, num2, op);
-                            Console.WriteLine("Result: " + result);
+                            
+                            
                         }
 
                         catch (DivideByZeroException ex)
@@ -102,11 +107,13 @@
                         }
                     }
                     break;
+
                 }
-                else
-                {
+                // else throw new Helpers.InvalidEntryException();
+                else {
                     Console.WriteLine("invalid");
                 }
+
             }
         }
     }

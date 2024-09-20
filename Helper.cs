@@ -4,15 +4,6 @@ namespace calculatorcs
     public static class Helpers
     {
 
-
-        public static double Plus(double num1, double num2)
-        {
-            double sum = num1 + num2;
-            Console.WriteLine("double: ");
-            return sum
-
-            ;
-        }
         public static double Average(params double[] numbers)
         {
             double result;
@@ -27,7 +18,25 @@ namespace calculatorcs
         }
 
 
-        // to do, make new general error
+        public class InvalidEntryException : Exception
+        {
+            public InvalidEntryException() : base("invalid entry!")
+            {
+
+            }
+
+            public InvalidEntryException(string message) : base(message)
+            {
+
+            }
+        }
+
+
+        // hash
+
+        // Dictionary<string, int> ages = new Dictionary<string, int>();
+
+        
 
     }
 
